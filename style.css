@@ -1,0 +1,99 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    transition: all ease .5s;
+    max-width: 768px;
+}
+
+
+.bi{
+    cursor: pointer;
+}
+
+form .bi:hover{
+    color: #6610f2;
+}
+
+.aside {
+    background-image: linear-gradient(to right,#6f42c1,#6610f2);
+}
+
+a{
+    color: #212529;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #6610f2;
+}
+
+form button.btn{
+    background-color: #6610f2;
+    
+}
+
+[type=button]:not(:disabled), 
+[type=reset]:not(:disabled), 
+[type=submit]:not(:disabled), 
+button:not(:disabled){
+    box-shadow: none;   
+}
+
+.form-check-input.is-valid~.form-check-label, 
+.was-validated .form-check-input:valid~.form-check-label {
+    color: #212529;
+}
+
+.form-check-input.is-valid, .was-validated .form-check-input:valid{
+    border-color: rgba(0,0,0,.25);
+}
+
+.form-check-input.is-valid:checked, 
+.was-validated .form-check-input:valid:checked{
+    background-color: #6610f2;
+    border-color: #6610f2;
+}
+
+.form-check-input.is-valid:focus, 
+.was-validated .form-check-input:valid:focus{
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #6610f2;
+    box-shadow: none;
+}
+
+.form-check-input:focus{
+    border-color: #6610f2;
+}
+
+.form-check-input:checked{
+    background-color: #6610f2;
+    border-color: #6610f2;
+    box-shadow: none;
+}
+
+.form-check-input:focus{
+    box-shadow: none;
+}
+
+.form-control.is-invalid:focus,.was-validated .form-control:invalid:focus{
+    box-shadow: none;
+    
+}
+
+.form-control.is-valid:focus,.was-validated .form-control:valid:focus{
+    box-shadow: none;
+}
+
+
+
+
+
+
